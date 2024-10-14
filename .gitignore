@@ -1,0 +1,17 @@
+__pycache__/
+
+bin/
+obj/
+.vs/
+
+build/*
+pybuild/
+zip/
+
+*.zip
+*.spec
+spline/lighthouse_plain.json
+spline/lighthouse_plain.lua
+spline/welcome_center_plain.json
+spline/welcome_center_plain.json.backup
+spline/welcome_center_plain.lua

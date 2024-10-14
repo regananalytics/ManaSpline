@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType> <!-- Specifies that this is a Windows GUI application -->
+    <TargetFramework>net8.0-windows</TargetFramework> <!-- Use the version of .NET appropriate for your app -->
+    <UseWindowsForms>true</UseWindowsForms> <!-- Enables Windows Forms support -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InputSimulator" Version="1.0.4" />
+    <PackageReference Include="MouseKeyHook" Version="5.7.1" />
+    <PackageReference Include="RawInput.Sharp" Version="0.1.3" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MemCore\src\MemCore.csproj" />
+  </ItemGroup>
+
+</Project>
